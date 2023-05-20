@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="mainWindow">./widgets/mainWindow.qml</file>
+        <file>./widgets/MainWindowMenuBar.qml</file>
+        <file>./widgets/Calculator.qml</file>
+    </qresource>
+</RCC>
