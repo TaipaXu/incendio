@@ -46,6 +46,19 @@ Quick.Calculator {
                 onClicked: calculator.stop()
             }
         }
+
+        RowLayout {
+            Layout.alignment: Qt.AlignCenter
+
+            Label {
+                text: root.duration
+                font.pixelSize: 50
+            }
+        }
+
+        Item {
+            height: 20
+        }
     }
 
     Component.onCompleted: {
