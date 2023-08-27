@@ -64,7 +64,7 @@ namespace Quick
         int i = 0;
         while (running)
         {
-            i++;
+            static int result = i++;
         }
     }
 
